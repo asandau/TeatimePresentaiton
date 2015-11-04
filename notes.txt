@@ -1,0 +1,10 @@
+epagesj - thinlayer approach
+
+pro:
+creating resources etc easier in java
+use sdk in java
+consistent webservice interfaces for perl
+
+contra:
+maintain 2 systems.
+speed
