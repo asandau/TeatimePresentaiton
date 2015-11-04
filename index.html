@@ -15,7 +15,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+		<link rel="stylesheet" href="css/customization.css">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -40,74 +41,185 @@
 
 			<div class="slides">
 				<section>
-				    
+
 					<h1>RnD Tea Time</h1>
-					<h3>New approach for third party integrations</h3>
-					<p>
-						Team Ocean - Hamburg
-					</p>
+					<p>Team Ocean - Hamburg</p>
+					<h3>New approach for <br />third party integrations</h3>
+
 				</section>
 				<section>
 					<h2>Agenda</h2>
 					<ul>
-						<li>Introduction</li>
-						<li>Advantages</li>
-						<li>Disadvantages</li>
-						<li>Conclusion</li>
+						<li>Introduction to the approach</li>
+						<li>Why this approach?</li>
+						<li>Evaluation</li>
 					</ul>
-				</section>
-				
-				<section> 
-				  <p>The approach</p>
-				  <img src="img/Communication_with_epagesj.svg"></img>
-				</section>
-				
-				<section> 
-				  <img src="img/why.png"></img>
-				  <ul>
-					<li>Why this approach?</li>
-					<li>Why not everything in java?</li>
-				  </ul>
-				</section>
-				
-				<section>
-				  <h2>Advantages</h2>
-				</section>
-				
-				<section> 
-				  <img src="img/advantagesjavavsperl.png"></img>
-				</section>
-				
-				<section> 
-				  bulletpoints
-				  <img src="img/advantagessdk.png"></img>
 				</section>
 
 				<section>
-				  <h2>Disadvantages</h2>
+
+					<section>
+						<h2>What is the approach?</h2>
+					</section>
+
+					<section>
+						<h2>Old approach</h2>
+						<img src="img/oldApproach.png" class="center" />
+					</section>
+
+					<section>
+						<h2>New approach</h2>
+						<img src="img/newApproach.png" class="center" />
+					</section>
+
 				</section>
-				
-				<section> 
-				  use first image, or make simpler 
-				  try pusszle pieces for epages6 and epagesj
-				  <img src="img/disadvantagesextralayer.png"></img>
-				</section>
-				
+
 				<section>
-				  <h2>How did it work out?<h2>
+
+					<section>
+						<img src="img/why.png" class="left" />
+						<h2>Reasons?</h2>
+						<h3>Why we choose this approach?</h3>
+					</section>
+
+					<section>
+						<h3>Find similarities between payments</h3>
+						<img src="img/idea.png" class="center" />
+					</section>
+
+					<section>
+						<h3>To create a unified communication interface</h3>
+						<img src="img/approachGoal.png" class="center" />
+					</section>
+
+					<section>
+						<h3>Use new technologies</h3>
+
+						<table>
+							<tr>
+									<td><img src="img/perl.png" /></td>
+									<td><img src="img/java.jpg" /></td>
+							</tr>
+							<tr>
+								<td class="center">Perl</td>
+								<td class="center">Java</td>
+							</tr>
+						</table>
+
+					</section>
+
+					<section>
+							<h3>Use Software Development Kits (SDKs)</h3>
+							<img src="img/goal.png" height="200" />
+							<table>
+								<tr>
+										<td class="center"><img src="img/sdk-perl.jpg" width="75%" /></td>
+										<td class="center"><img src="img/sdk-java.jpg" width="60%" /></td>
+								</tr>
+								<tr>
+									<td class="center">without SDK</td>
+									<td class="center">with SDK</td>
+								</tr>
+							</table>
+					</section>
+
+					<section>
+						<img src="img/why.png" class="left" />
+						<h3>Why not everything in java?</h3>
+						<p class="fragment">Because it's not possible at the moment.</p>
+					</section>
+
 				</section>
-				
+
 				<section>
-				  
+
+					<section>
+					  <h2>Evaluation</h2>
+						<h3>How did it work out?<h3>
+					</section>
+
+					<section>
+						<h2>Advantages</h2>
+						<img src="img/thumbsup.png" />
+					</section>
+
+					<section>
+						<h3>Saving time in development</h3>
+						<img src="img/modern-stack.jpg" height="200" /><br />
+						instead of<br />
+						<img src="img/old-stack.jpg" height="200" />
+					</section>
+
+					<section>
+						<h3>Produce code that might<br />be reused in the future</h3>
+						<img src="img/reuse.jpg" height="350" />
+					</section>
+
+					<section>
+						<h2>Disadvantages</h2>
+						<img src="img/thumbsdown.jpg" width="60%" />
+					</section>
+
+					<section>
+						<h3>Adding another dependency</h3>
+						<img src="img/newApproach.png" height="200" />
+					</section>
+
+					<section data-transition="none">
+						<h3>Adding another dependency</h3>
+						<h4>could cause this</h4>
+						<div class="center">
+							<img src="img/spinner.gif" height="50" /><br />
+							<img src="img/dependency.png" height="200" />
+						</div>
+					</section>
+
+					<section data-transition="none">
+						<h3>Adding another dependency</h3>
+						<h4>also means..</h4>
+						<img src="img/puzzleA.png" />
+					</section>
+
+					<section data-transition="none">
+						<h3>Adding another dependency</h3>
+						<h4>if we change something in epages6..</h4>
+						<img src="img/puzzleB.png" />
+					</section>
+
+					<section data-transition="none">
+						<h3>Adding another dependency</h3>
+						<h4>we have to adjust epagesj aswell</h4>
+						<img src="img/puzzleC.png" />
+					</section>
+
+					<section>
+						<h3>Architecture and maintainance<br /> becomes more complex</h3>
+						<img src="img/maintain.jpg" width="40%" />
+					</section>
+
+					<section>
+						<h3>Runs slower<br />since there is an extra layer</h3>
+						<img src="img/speed.png" />
+					</section>
+
+					<section>
+						<h2>Our Conclusion</h2>
+						<ul>
+							<li>We gained experience with new technologies <p class="positive">(+)</p></li>
+							<li>We used the paypal-SDK <p class="positive">(+)</p></li>
+							<li>We noticed design problems in our code, because the extra layer made us realize them <p class="positive">(+)</p></li>
+							<li>We used an unified way to do calls from epages6 <p class="positive">(+)</p></li>
+			        <li>We had to deal with an additional dependency <p class="negative">(-)</p></li>
+						</ul>
+					</section>
+
 				</section>
-				
-				<section> 
-				  <img src="img/why.png"></img>
-				  <p>
-					Questions?
-				  </p>
+
+				<section>
+					<img src="img/why.png" class="left" />
+					<h2>Any Questions?</h2>
 				</section>
-				
+
 			</div>
 
 
