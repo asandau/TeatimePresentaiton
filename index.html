@@ -85,11 +85,25 @@
 					<section>
 						<h3>Find similarities between payments</h3>
 						<img src="img/idea.png" class="center" />
+
+						<aside class="notes">
+								<h2>Idea</h2>
+								<ul>
+									<li>Identifierung a unitied way to do calls from epages6</li>
+								</ul>
+						</aside>
 					</section>
 
 					<section>
 						<h3>To create a unified communication interface</h3>
 						<img src="img/approachGoal.png" class="center" />
+
+						<aside class="notes">
+								<h2>Goal</h2>
+								<ul>
+									<li>Idea of building a common interface (blueprint) for all payments</li>
+								</ul>
+						</aside>
 					</section>
 
 					<section>
@@ -106,6 +120,20 @@
 							</tr>
 						</table>
 
+						<aside class="notes">
+								<h2>Java</h2>
+								<ul>
+									<li>In Java its easier to refactor code in development proccess</li>
+									<li>You get a lot of functionallity for free in Java or Java-Frameworks</li>
+									<li>Patterns and techniques could be reused in the new epages architecture</li>
+								</ul>
+
+								<h2>Perl</h2>
+								<ul>
+									<li>In Perl you have to build alot of base functionallity by yourself</li>
+								</ul>
+						</aside>
+
 					</section>
 
 					<section>
@@ -121,12 +149,28 @@
 									<td class="center">with SDK</td>
 								</tr>
 							</table>
+
+							<aside class="notes">
+					        <ul>
+										<li>Most thirdpartys provide SDKs for Java</li>
+										<li>Almost nobody provides SDKs for Perl</li>
+									</ul>
+					    </aside>
 					</section>
 
 					<section>
 						<img src="img/why.png" class="left" />
 						<h3>Why not everything in java?</h3>
 						<p class="fragment">Because it's not possible at the moment.</p>
+
+						<aside class="notes">
+								<h2>Why not?</h2>
+				        <ul>
+									<li>The Rest API does no provide all the functionalities that we need yet</li>
+									<li>Even if Rest API would provide all functionalities we still rely on the epages6 templates</li>
+									<li>We would need to rewrite the entire epages6 software</li>
+								</ul>
+				    </aside>
 					</section>
 
 				</section>
@@ -148,6 +192,20 @@
 						<img src="img/modern-stack.jpg" height="200" /><br />
 						instead of<br />
 						<img src="img/old-stack.jpg" height="200" />
+
+						<aside class="notes">
+								<h2>Java</h2>
+								<ul>
+									<li>In Java it was easier to refactor code in development proccess</li>
+									<li>We got a lot of functionallity for free in Java or Java-Frameworks</li>
+									<li>We were able to used the paypal-SDK</li>
+								</ul>
+
+								<h2>Perl</h2>
+								<ul>
+									<li>In Perl we would had to build alot of this functionallity by ourselfs</li>
+								</ul>
+						</aside>
 					</section>
 
 					<section>
@@ -195,6 +253,15 @@
 					<section>
 						<h3>Architecture and maintainance<br /> becomes more complex</h3>
 						<img src="img/maintain.jpg" width="40%" />
+
+						<aside class="notes">
+								<h2>Maintainanace</h2>
+								<ul>
+									<li>Bugs can hide in two seperate layers what makes it harder to find them</li>
+									<li>Logging gets more complex</li>
+									<li>You have to touch each request two times instead of once</li>
+								</ul>
+						</aside>
 					</section>
 
 					<section>
