@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>RnD Tea Time: Team Ocean: Working with ePagesJ</title>
+		<title>Thirdpartys in ePages</title>
 
 		<meta name="description" content="">
 		<meta name="author" content="Team Ocean HH">
@@ -44,135 +44,41 @@
 			<div class="slides">
 				<section>
 
-					<h1>RnD Tea Time</h1>
-					<p>Team Ocean - Hamburg</p>
-					<h3>New approach for <br />third party integrations</h3>
-
-				</section>
-				<section>
-					<h2>Agenda</h2>
-					<ul>
-						<li>Introduction to the approach</li>
-						<li>Why this approach?</li>
-						<li>Evaluation</li>
-					</ul>
-				</section>
-
-				<section>
-
-					<section>
-						<h2>What is the approach?</h2>
-					</section>
-
-					<section>
-						<h2>Old approach</h2>
-						<img src="img/oldApproach.png" class="center" />
-					</section>
-
-					<section>
-						<h2>New approach</h2>
-						<img src="img/newApproach.png" class="center" />
-					</section>
+					<h1>Thirdpartys in ePages</h1>
+					<h3>Introduction</h3>
 
 				</section>
 
 				<section>
 
 					<section>
-						<img src="img/why.png" class="left" />
-						<h2>Reasons?</h2>
-						<h3>Why we choose this approach?</h3>
+						<h2>What is »Thirdparty«?</h2>
+						<p class="fragment">Bridges between ePages and other services.</p>
 					</section>
 
 					<section>
-						<h3>Find similarities between payments</h3>
-						<img src="img/idea.png" class="center" />
-
-						<aside class="notes">
-								<h2>Goal</h2>
-								<ul>
-									<li>Identifying a unified way to do calls from epages6</li>
-								</ul>
-						</aside>
+						<h2>Payments</h2>
+						<img src="img/payments.png" class="center" />
 					</section>
 
 					<section>
-						<h3>To create a unified communication interface</h3>
-						<img src="img/approachGoal.png" class="center" />
-
-						<aside class="notes">
-								<h2>Idea</h2>
-								<ul>
-									<li>Building a common interface (blueprint) that could be applied for all payments</li>
-								</ul>
-						</aside>
+						<h2>Delivery</h2>
+						<img src="img/deliveries.png" class="center" />
 					</section>
 
 					<section>
-						<h3>Use new technologies</h3>
-
-						<table>
-							<tr>
-									<td><img src="img/perl.png" /></td>
-									<td><img src="img/java.jpg" /></td>
-							</tr>
-							<tr>
-								<td class="center">Perl</td>
-								<td class="center">Java</td>
-							</tr>
-						</table>
-
-						<aside class="notes">
-								<h2>Java</h2>
-								<ul>
-									<li>In Java its easier to refactor code</li>
-									<li>You get a lot of functionallity for free in Java or Java specific Frameworks</li>
-									<li>Patterns and techniques could be reused in the new epages architecture</li>
-								</ul>
-
-								<h2>Perl</h2>
-								<ul>
-									<li>In Perl you have to build a lot of base functionallity by yourself</li>
-								</ul>
-						</aside>
-
+						<h2>Product Portals</h2>
+						<img src="img/product-portals.png" class="center" />
 					</section>
 
 					<section>
-							<h3>Use Software Development Kits (SDKs)</h3>
-							<img src="img/goal.png" height="200" />
-							<table>
-								<tr>
-										<td class="center"><img src="img/sdk-perl.jpg" width="75%" /></td>
-										<td class="center"><img src="img/sdk-java.jpg" width="60%" /></td>
-								</tr>
-								<tr>
-									<td class="center">without SDK</td>
-									<td class="center">with SDK</td>
-								</tr>
-							</table>
-
-							<aside class="notes">
-					        <ul>
-										<li>Most thirdpartys provide SDKs for Java</li>
-										<li>Almost nobody provides SDKs for Perl</li>
-									</ul>
-					    </aside>
+						<h2>Marketing</h2>
+						<img src="img/marketing.png" class="center" />
 					</section>
 
 					<section>
-						<img src="img/why.png" class="left" />
-						<h3>Why not everything in java?</h3>
-						<p class="fragment">Because it's not possible at the moment.</p>
-
-						<aside class="notes">
-								<h2>Why not?</h2>
-				        <ul>
-									<li>The Rest API does no provide all the functionalities that we need yet</li>
-									<li>Even if Rest API would provide all functionalities we still rely on the epages6 templates</li>
-									<li>We would need to rewrite the entire epages6 software</li>
-								</ul>
-				    </aside>
+						<h2>And a lot more..</h2>
+						<p>ePages provides around 80 thridparty integrations.</p>
 					</section>
 
 				</section>
@@ -180,118 +86,20 @@
 				<section>
 
 					<section>
-					  <h2>Evaluation</h2>
-						<h3>How did it work out?<h3>
-					</section>
-
-					<section>
-						<h2>Advantages</h2>
-						<img src="img/thumbsup.png" />
-					</section>
-
-					<section>
-						<h3>Saving time in development</h3>
-						<img src="img/modern-stack.jpg" height="200" /><br />
-						instead of<br />
-						<img src="img/old-stack.jpg" height="200" />
-
-						<aside class="notes">
-								<h2>Java</h2>
-								<ul>
-									<li>In Java it was easier to refactor code in development proccess</li>
-									<li>We got a lot of functionallity for free in Java or Java-Frameworks</li>
-									<li>We were able to used the paypal-SDK</li>
-								</ul>
-
-								<h2>Perl</h2>
-								<ul>
-									<li>In Perl we would had to build alot of this functionallity by ourselfs</li>
-								</ul>
-						</aside>
-					</section>
-
-					<section>
-						<h3>Produce code that might<br />be reused in the future</h3>
-						<img src="img/reuse.jpg" height="350" />
-					</section>
-
-					<section>
-						<h2>Disadvantages</h2>
-						<img src="img/thumbsdown.jpg" width="60%" />
-					</section>
-
-					<section>
-						<h3>Adding another dependency</h3>
-						<img src="img/newApproach.png" height="200" />
-					</section>
-
-					<section data-transition="none">
-						<h3>Adding another dependency</h3>
-						<h4>could cause this</h4>
-						<div class="center">
-							<img src="img/spinner.gif" height="50" /><br />
-							<img src="img/dependency.png" height="200" />
-						</div>
-					</section>
-
-					<section data-transition="none">
-						<h3>Adding another dependency</h3>
-						<h4>also means..</h4>
-						<img src="img/puzzleA.png" />
-					</section>
-
-					<section data-transition="none">
-						<h3>Adding another dependency</h3>
-						<h4>if we change something in epages6..</h4>
-						<img src="img/puzzleB.png" />
-					</section>
-
-					<section data-transition="none">
-						<h3>Adding another dependency</h3>
-						<h4>we have to adjust epagesj as well</h4>
-						<img src="img/puzzleC.png" />
-					</section>
-
-					<section>
-						<h3>Architecture and maintainance<br /> becomes more complex</h3>
-						<img src="img/maintain.jpg" width="40%" />
-
-						<aside class="notes">
-								<h2>Maintainanace</h2>
-								<ul>
-									<li>Bugs can hide in two seperate layers what makes it harder to find them</li>
-									<li>Logging gets more complex</li>
-									<li>You have to touch each request two times instead of once</li>
-								</ul>
-						</aside>
-					</section>
-
-					<section>
-						<h3>Runs slower<br />since there is an extra layer</h3>
-						<img src="img/speed.png" />
-					</section>
-
-					<section>
-						<h2>Our Conclusion</h2>
-						<ul>
-							<li>We gained experience with new technologies <p class="positive">(+)</p></li>
-							<li>We used the paypal-SDK <p class="positive">(+)</p></li>
-							<li>We noticed design problems in our code, because the extra layer made us realize them <p class="positive">(+)</p></li>
-							<li>We used an unified way to do calls from epages6 <p class="positive">(+)</p></li>
-			        <li>We had to deal with an additional layer <p class="negative">(-)</p></li>
+						<h2>Who does it?</h2>
+						<ul class="fragment">
+							<li>Team Ocean Barcelona</li>
+							<li>Team Ocean Hamburg</li>
 						</ul>
 					</section>
 
 				</section>
 
 				<section>
-					<img src="img/why.png" class="left" />
-					<h2>Any Questions?</h2>
+					<h2>Live-Demo</h2>
 				</section>
 
 			</div>
-
-
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
